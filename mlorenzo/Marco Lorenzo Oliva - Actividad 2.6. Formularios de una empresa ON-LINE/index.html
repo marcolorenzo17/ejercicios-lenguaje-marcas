@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Productos Johansson | Pedido </title>
+</head>
+<body bgcolor="LightGreen">
+<form action="script.asp" method="post">
+	<h1 align="center"> PRODUCTOS JOHANSSON </h1>
+<hr size="3" noshade>
+	<h3 align="center"> ATENCIÓN </h3>
+	<b> <p align="center"> Para realizar pedidos, se necesita un registro previo. <a href="registroCliente.html"> ¡Regístrate! </a> </p> </b>
+<br>
+<hr size="3" noshade>
+	<h1 align="center"> Tu pedido </h1>
+	Nombre de usuario: &nbsp;
+		<input type="text" name="usuario" size="30">
+<br>
+<br>
+	Contraseña: &nbsp;
+		<input type="text" name="contraseña" size="37">
+		&nbsp; <input type="button" name="rellenar" value="Rellenar datos">
+<br>
+<br>
+<hr size="3" noshade>
+	<h2> Datos del cliente </h2>
+	DNI: &nbsp;
+		<input type="text" name="dni" size="35">
+<br>
+<br>
+	Nombre: &nbsp;
+		<input type="text" name="nombre" size="32">
+<br>
+<br>
+	Apellidos: &nbsp;
+		<input type="text" name="apellidos" size="30">
+<br>
+<br>
+	Dirección: &nbsp;
+		<input type="text" name="direccion" size="30">
+<br>
+<br>
+	Teléfono: &nbsp;
+		<input type="text" name="telefono" size="31">
+<br>
+<br>
+	E-mail: &nbsp;
+		<input type="text" name="email" size="33">
+<br>
+<br>
+	Fax: &nbsp;
+		<input type="text" name="fax" size="36">
+<br>
+<br>
+	Nacionalidad: &nbsp;
+		<select name="nacionalidad" size="1">
+		
+			<option value="alemania"> Alemania </option>
+			<option value="andorra"> Andorra </option>
+			<option value="austria"> Austria </option>
+			<option value="bulgaria"> Bulgaria </option>
+			<option value="croacia"> Croacia </option>
+			<option value="dinamarca"> Dinamarca </option>
+			<option value="españa" selected> España </option>
+			<option value="finlandia"> Finlandia </option>
+			<option value="francia"> Francia </option>
+			<option value="grecia"> Grecia </option>
+			<option value="irlanda"> Irlanda </option>
+			<option value="italia"> Italia </option>
+			<option value="luxemburgo"> Luxemburgo </option>
+			<option value="macedonia"> Macedonia </option>
+			<option value="montenegro"> Montenegro </option>
+			<option value="noruega"> Noruega </option>
+			<option value="paisesbajos"> Países Bajos </option>
+			<option value="polonia"> Polonia </option>
+			<option value="portugal"> Portugal </option>
+			<option value="reinounido"> Reino Unido </option>
+			<option value="rusia"> Rusia </option>
+			<option value="suecia"> Suecia </option>
+			<option value="suiza"> Suiza </option>
+			<option value="ucrania"> Ucrania </option>
+			
+		</select>
+<br>
+<br>
+<hr size="3" noshade>
+	<h2> Detalle del pedido </h2>
+<textarea name="detalles" cols="100" rows="10">
+Describe aquí los productos que solicita.
+</textarea>
+	<h3> Forma de envío </h3>
+	<input type="Radio" name="envio" value="Correo Postal (7 días, sin gastos de envío)">Correo Postal (7 días, sin gastos de envío)
+<br>
+<br>
+	<input type="Radio" name="envio" value="Mensajería (2 días, 10 € de gastos de envío)">Mensajería (2 días, 10 € de gastos de envío)
+<br>
+<br>
+	<input type="Radio" name="envio" value="Recoger en tienda">Recoger en tienda
+<br>
+	<h3> Forma de pago </h3>
+	<input type="Radio" name="pago" value="Contra reembolso">Contra reembolso
+<br>
+<br>
+	<input type="Radio" name="pago" value="A través de tarjeta">A través de tarjeta
+<br>
+<br>
+	<input type="Radio" name="pago" value="Cuenta PayPal">Cuenta PayPal
+<br>
+<hr size="3" noshade>
+	<h2> Observaciones </h2>
+<textarea name="observaciones" cols="100" rows="10">
+Escribe aquí cualquier otra información que necesitemos conocer.
+</textarea>
+<br>
+<br>
+<hr size="3" noshade>
+<br>
+	<div style="text-align: center;">
+		<input type="submit" name="Enviar" value="Enviar"> &nbsp; &nbsp; &nbsp;
+		<input type="reset" name="Borrar" value="Borrar">
+	</div>
+</form>
+</body>
+</html>
